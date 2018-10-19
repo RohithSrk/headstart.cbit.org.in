@@ -1,0 +1,9 @@
+Options -Multiviews -Indexes +FollowSymLinks
+RewriteEngine On
+RewriteBase /
+DirectorySlash Off
+
+# remove trailing slash
+RewriteRule ^(.*)\/(\?.*)?$ $1$2 [R=301,L]
+
+FallbackResource /index.html

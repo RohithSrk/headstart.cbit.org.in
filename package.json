@@ -1,0 +1,28 @@
+{
+  "name": "headstart",
+  "version": "1.0.0",
+  "description": "A Website for all the events of headstart by Sudhee CBIT",
+  "main": "  ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohithsrk/headstart.cbit.org.in.git"
+  },
+  "author": "Rohith Singirikonda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rohithsrk/headstart.cbit.org.in/issues"
+  },
+  "homepage": "https://github.com/rohithsrk/headstart.cbit.org.in#readme",
+  "dependencies": {
+    "howler": "^2.0.15",
+    "jquery": "^3.3.1",
+    "normalize.css": "^8.0.0",
+    "pace-progress": "^1.0.2",
+    "particles.js": "^2.0.0",
+    "roadtrip": "^0.6.1",
+    "simplebar": "^3.0.0-beta.5"
+  }
+}
